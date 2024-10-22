@@ -1,0 +1,15 @@
+{
+  "title": "Elevate your mornings with perfectly brewed Coffee",
+  "category": "Tips & Tricks",
+  "postedOn": "2023-05-03T12:00:00.000Z",
+  "postedBy": "Muhammad Nasrulloh",
+  "img": "/blogs/img/start-the-day.png",
+  "tags": [
+    { "name": "MORNING" },
+    { "name": "REFRESH" },
+    { "name": "TIPS & TRICKS" },
+    { "name": "START THE DAY" },
+    { "name": "GOOD MORNING" }
+  ],
+  "content": "<div><h3 class=\"mb-3 text-lg font-medium text-black dark:text-white xl:text-2xl\">Cappuccino Bliss</h3><p class=\"text-regular leading-[2]\">Patent authorities globally are grappling with the challenge of redefining their approach to handling inventions generated not by human ingenuity but by AI. It has sparked considerable debate within the intellectual property community.</p><br><h3 class=\"mb-3 text-lg font-medium text-black dark:text-white xl:text-2xl\">Benifits of coffee</h3><ul class=\"text-regular leading-[2] list-disc ml-5 my-4\"><li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</li><li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</li><li>Excepteur sint occaecat cupidatat non proident, sunt in culpa</li></ul><div class=\"grid gap-5 my-8 sm:grid-cols-2 md:gap-8 *:overflow-hidden *:rounded-xl *:xl:rounded-2xl\"><div><img src=\"/blogs/img/start-the-day-1.png\" class=\"w-full\" alt=\"Blog Inner Colum Image\"></div><div><img src=\"/blogs/img/start-the-day-2.png\" class=\"w-full\" alt=\"Blog Inner Colum Image\"></div></div></div>"
+}

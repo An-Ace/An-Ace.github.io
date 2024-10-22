@@ -1,0 +1,13 @@
+{
+  "title": "Building Resilience: How Programmers Can Handle Stress Effectively",
+  "category": "Wellness",
+  "postedOn": "2023-10-17T12:00:00.000Z",
+  "postedBy": "Anas",
+  "img": "/blogs/img/building-resilience.png",
+  "tags": [
+    { "name": "WELLNESS" },
+    { "name": "STRESS MANAGEMENT" },
+    { "name": "MENTAL HEALTH" }
+  ],
+  "content": "<div><h3 class=\"mb-3 text-lg font-medium text-black dark:text-white xl:text-2xl\">Understanding Stress</h3><p class=\"text-regular leading-[2]\">In the fast-paced world of programming, stress is inevitable. However, learning how to manage it can lead to a healthier work-life balance.</p><br><h3 class=\"mb-3 text-lg font-medium text-black dark:text-white xl:text-2xl\">Tips for Building Resilience</h3><ul class=\"text-regular leading-[2] list-disc ml-5 my-4\"><li>Practice mindfulness and meditation</li><li>Establish a support network of fellow programmers</li><li>Engage in regular physical activity</li></ul></div>"
+}

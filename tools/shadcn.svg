@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="945px" height="945px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 945 945"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:#151518}
+    .fil0 {fill:#FEFEFE}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2543596822624">
+   <image x="3.13" y="4.25" width="937.62" height="937.62" xlink:href="shadcn_Images\shadcn_ImgID1.png"/>
+   <g>
+    <polygon class="fil0" points="3.13,941.87 940.75,941.87 940.75,4.25 3.13,4.25 "/>
+    <path class="fil1" d="M698.9 123.24c-21.25,5.42 -135.59,126.94 -159.37,150.71l-385.56 385.37c-10.22,10.2 -30.22,25.45 -32.71,42.28 -3.27,21.98 14.88,39.34 37.18,33.29 18.63,-5.05 276.72,-270.03 311.83,-305.17 52.38,-52.42 101.75,-101.8 154.16,-154.22 16.96,-16.95 106.45,-98.59 110.06,-119.03 3.89,-22.11 -15.14,-38.44 -35.59,-33.23z"/>
+    <path class="fil1" d="M444.66 781.03c39.84,25.35 32.08,20.27 101.92,-49.99l183.44 -183.26c72.24,-72.22 75.5,-62.18 49.76,-101.88 -38.99,-4.76 -60.03,29.93 -99.29,69.02l-208.4 208.32c-15.45,15.26 -31.07,23.9 -27.43,57.79z"/>
+   </g>
+  </g>
+ </g>
+</svg>

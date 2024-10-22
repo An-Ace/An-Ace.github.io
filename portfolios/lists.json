@@ -1,0 +1,21 @@
+[
+  {
+    "id": "plato",
+    "title": "PLATO (LMS)",
+    "role": "Backend semi-Fullstack",
+    "img": "/portfolios/img/plato.png",
+    "colspan": true
+  },
+  {
+    "id": "pesen.id",
+    "title": "PESEN.ID (Ordering Web Apps)",
+    "role": "Backend",
+    "img": "/portfolios/img/pesen.id.png"
+  },
+  {
+    "id": "my-resume",
+    "title": "My Resume",
+    "role": "Fullstack",
+    "img": "/portfolios/img/my-resume.png"
+  }
+]
