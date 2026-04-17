@@ -1,0 +1,458 @@
+{
+    "title": {
+        "locales": {
+            "id": {
+                "title_short": "Keahlian",
+                "title_short_nav": "Keahlian",
+                "title_long_prefix": "Jelajahi",
+                "title_long": "{{Keahlian}} Saya"
+            },
+            "en": {
+                "title_short": "Skills",
+                "title_short_nav": "Skills",
+                "title_long_prefix": "Explore",
+                "title_long": "My {{Skill Set}}"
+            },
+            "es": {
+                "title_short": "Habilidades",
+                "title_short_nav": "Habilidades",
+                "title_long_prefix": "Explora",
+                "title_long": "Mis {{Habilidades}}"
+            },
+            "fr": {
+                "title_short": "Capacités",
+                "title_short_nav": "Capacités",
+                "title_long_prefix": "Explorez",
+                "title_long": "Mes {{Compétences}}"
+            },
+            "ko": {
+                "title_short": "스킬",
+                "title_short_nav": "스킬",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{스킬}}입니다"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-server",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "id": {
+                            "title": "Pengembangan {{Backend}}",
+                            "text": "Membangun API yang skalabel, aman, dan berperforma tinggi."
+                        },
+                        "en": {
+                            "title": "{{Backend}} Development",
+                            "text": "Building scalable, secure, and high-performance APIs."
+                        },
+                        "es": {
+                            "title": "Desarrollo {{Backend}}",
+                            "text": "Construyendo APIs escalables, seguras y de alto rendimiento."
+                        },
+                        "fr": {
+                            "title": "Développement {{Backend}}",
+                            "text": "Construction d'API évolutives, sécurisées et haute performance."
+                        },
+                        "ko": {
+                            "title": "{{백엔드}} 개발",
+                            "text": "확장 가능하고 안전하며 고성능 API를 구축합니다."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "id": {
+                            "title": "Manajemen {{Database}}",
+                            "text": "Mengelola database secara efektif menggunakan MySQL, PostgreSQL, dan Redis."
+                        },
+                        "en": {
+                            "title": "{{Database}} Management",
+                            "text": "Effectively managing databases using MySQL, PostgreSQL, and Redis."
+                        },
+                        "es": {
+                            "title": "Gestión de {{bases de datos}}",
+                            "text": "Gestión efectiva de bases de datos con MySQL, PostgreSQL y Redis."
+                        },
+                        "fr": {
+                            "title": "Gestion de {{bases de données}}",
+                            "text": "Gestion efficace des bases de données avec MySQL, PostgreSQL et Redis."
+                        },
+                        "ko": {
+                            "title": "{{데이터베이스}} 관리",
+                            "text": "MySQL, PostgreSQL, Redis를 사용하여 데이터베이스를 효과적으로 관리합니다."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-table-columns",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "id": {
+                            "title": "Pengembangan {{Fullstack}}",
+                            "text": "Membangun website fullstack menggunakan Next.js dan Nuxt.js."
+                        },
+                        "en": {
+                            "title": "{{Fullstack}} Development",
+                            "text": "Building fullstack websites using Next.js and Nuxt.js."
+                        },
+                        "es": {
+                            "title": "Desarrollo {{Fullstack}}",
+                            "text": "Desarrollando sitios web fullstack con Next.js y Nuxt.js."
+                        },
+                        "fr": {
+                            "title": "Développement {{Fullstack}}",
+                            "text": "Développement de sites web fullstack avec Next.js et Nuxt.js."
+                        },
+                        "ko": {
+                            "title": "{{풀스택}} 개발",
+                            "text": "Next.js와 Nuxt.js를 사용하여 풀스택 웹사이트를 구축합니다."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-window-restore",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "id": {
+                            "title": "{{REST}} API",
+                            "text": "Membangun dan mengintegrasikan layanan REST API."
+                        },
+                        "en": {
+                            "title": "{{REST}} APIs",
+                            "text": "Building and integrating REST API services."
+                        },
+                        "es": {
+                            "title": "APIs {{REST}}",
+                            "text": "Construyendo e integrando servicios REST API."
+                        },
+                        "fr": {
+                            "title": "APIs {{REST}}",
+                            "text": "Construction et intégration de services REST API."
+                        },
+                        "ko": {
+                            "title": "{{REST}} API",
+                            "text": "REST API 서비스를 구축하고 통합합니다."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-brands fa-docker",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "id": {
+                            "title": "{{DevOps}} & Deployment",
+                            "text": "Containerisasi dengan Docker dan deployment ke server produksi."
+                        },
+                        "en": {
+                            "title": "{{DevOps}} & Deployment",
+                            "text": "Containerization with Docker and deployment to production servers."
+                        },
+                        "es": {
+                            "title": "{{DevOps}} y Despliegue",
+                            "text": "Contenedorización con Docker y despliegue en servidores de producción."
+                        },
+                        "fr": {
+                            "title": "{{DevOps}} & Déploiement",
+                            "text": "Conteneurisation avec Docker et déploiement sur des serveurs de production."
+                        },
+                        "ko": {
+                            "title": "{{데브옵스}} & 배포",
+                            "text": "Docker를 사용한 컨테이너화 및 운영 서버 배포."
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleSkills",
+            "locales": {
+                "id": {"title": "Backend Stack"},
+                "en": {"title": "Backend Stack"},
+                "es": {"title": "Stack de Backend"},
+                "fr": {"title": "Stack Backend"},
+                "ko": {"title": "백엔드 스택"}
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-brands fa-js",
+                    "faIconColors": {"bg": "", "fill": "#F7DF1E", "fillLight": "#a69617"},
+                    "date": {"year": 2021, "month": 1},
+                    "percentage": 90,
+                    "locales": {
+                        "id": {"title": "TypeScript / JavaScript", "text": "Bahasa utama untuk pengembangan backend dan frontend.", "level": ""},
+                        "en": {"title": "TypeScript / JavaScript", "text": "Primary language for backend and frontend development.", "level": ""},
+                        "es": {"text": "Lenguaje principal para desarrollo backend y frontend."},
+                        "fr": {"text": "Langage principal pour le développement backend et frontend."},
+                        "ko": {"text": "백엔드 및 프론트엔드 개발을 위한 주요 언어."}
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-brands fa-php",
+                    "faIconColors": {"bg": "", "fill": "#B0B3D6", "fillLight": "#4F5B93"},
+                    "date": {"year": 2021, "month": 6},
+                    "percentage": 90,
+                    "locales": {
+                        "id": {"title": "PHP / Laravel", "text": "Pengembangan backend dengan PHP dan framework Laravel.", "level": ""},
+                        "en": {"title": "PHP / Laravel", "text": "Backend development with PHP and Laravel framework.", "level": ""},
+                        "es": {"text": "Desarrollo backend con PHP y framework Laravel."},
+                        "fr": {"text": "Développement backend avec PHP et le framework Laravel."},
+                        "ko": {"text": "PHP 및 Laravel 프레임워크를 사용한 백엔드 개발."}
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-node-js",
+                    "faIconColors": {"bg": "", "fill": "#339933"},
+                    "date": {"year": 2022, "month": 1},
+                    "percentage": 88,
+                    "locales": {
+                        "id": {"title": "Node.js / Bun.js", "text": "Runtime environment untuk aplikasi web backend berperforma tinggi.", "level": ""},
+                        "en": {"title": "Node.js / Bun.js", "text": "Runtime environment for high-performance backend web applications.", "level": ""},
+                        "es": {"text": "Entorno de ejecución para aplicaciones web backend de alto rendimiento."},
+                        "fr": {"text": "Environnement d'exécution pour des applications web backend haute performance."},
+                        "ko": {"text": "고성능 백엔드 웹 애플리케이션을 위한 런타임 환경."}
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {"bg": "", "fill": "#4479A1"},
+                    "date": {"year": 2021, "month": 8},
+                    "percentage": 88,
+                    "locales": {
+                        "id": {"title": "MySQL / PostgreSQL", "text": "Manajemen dan optimasi database relasional.", "level": ""},
+                        "en": {"title": "MySQL / PostgreSQL", "text": "Relational database management and optimization.", "level": ""},
+                        "es": {"text": "Gestión y optimización de bases de datos relacionales."},
+                        "fr": {"text": "Gestion et optimisation des bases de données relationnelles."},
+                        "ko": {"text": "관계형 데이터베이스 관리 및 최적화."}
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-server",
+                    "faIconColors": {"bg": "", "fill": "#47A248"},
+                    "date": {"year": 2022, "month": 6},
+                    "percentage": 80,
+                    "locales": {
+                        "id": {"title": "MongoDB / Redis", "text": "Database NoSQL dan manajemen cache untuk performa tinggi.", "level": ""},
+                        "en": {"title": "MongoDB / Redis", "text": "NoSQL database and cache management for high performance.", "level": ""},
+                        "es": {"text": "Base de datos NoSQL y gestión de caché para alto rendimiento."},
+                        "fr": {"text": "Base de données NoSQL et gestion de cache pour haute performance."},
+                        "ko": {"text": "고성능을 위한 NoSQL 데이터베이스 및 캐시 관리."}
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-brands fa-docker",
+                    "faIconColors": {"bg": "", "fill": "#2496ED"},
+                    "date": {"year": 2023, "month": 3},
+                    "percentage": 70,
+                    "locales": {
+                        "id": {"title": "Docker / NGINX", "text": "Containerisasi aplikasi dan konfigurasi web server.", "level": ""},
+                        "en": {"title": "Docker / NGINX", "text": "Application containerization and web server configuration.", "level": ""},
+                        "es": {"text": "Contenedorización de aplicaciones y configuración de servidor web."},
+                        "fr": {"text": "Conteneurisation des applications et configuration du serveur web."},
+                        "ko": {"text": "애플리케이션 컨테이너화 및 웹 서버 설정."}
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": "",
+                    "faIcon": "fa-brands fa-git",
+                    "faIconColors": {"bg": "", "fill": "#F05032"},
+                    "date": {"year": 2021, "month": 1},
+                    "percentage": 90,
+                    "locales": {
+                        "id": {"title": "Git / SVN", "text": "Version control untuk kolaborasi tim dan manajemen kode.", "level": ""},
+                        "en": {"title": "Git / SVN", "text": "Version control for team collaboration and code management.", "level": ""},
+                        "es": {"text": "Control de versiones para colaboración en equipo y gestión de código."},
+                        "fr": {"text": "Contrôle de version pour la collaboration en équipe et la gestion du code."},
+                        "ko": {"text": "팀 협업 및 코드 관리를 위한 버전 관리."}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleSkills",
+            "locales": {
+                "id": {"title": "Frontend Stack"},
+                "en": {"title": "Frontend Stack"},
+                "es": {"title": "Stack de Frontend"},
+                "fr": {"title": "Stack Frontend"},
+                "ko": {"title": "프론트엔드 스택"}
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-brands fa-html5",
+                    "faIconColors": {"bg": "", "fill": "#E34F26"},
+                    "date": {"year": 2021, "month": 1},
+                    "percentage": 90,
+                    "locales": {
+                        "id": {"title": "HTML5 & CSS3", "text": "Struktur dan styling halaman web yang responsif.", "level": ""},
+                        "en": {"title": "HTML5 & CSS3", "text": "Responsive web page structure and styling.", "level": ""},
+                        "es": {"text": "Estructura y estilos de páginas web responsivas."},
+                        "fr": {"text": "Structure et style de pages web responsives."},
+                        "ko": {"text": "반응형 웹 페이지 구조 및 스타일링."}
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {"bg": "", "fill": "#61DAFB", "fillLight": "#317385"},
+                    "date": {"year": 2022, "month": 6},
+                    "percentage": 85,
+                    "locales": {
+                        "id": {"title": "ReactJS / Next.js", "text": "Membangun antarmuka pengguna modern dan aplikasi web fullstack.", "level": ""},
+                        "en": {"title": "ReactJS / Next.js", "text": "Building modern user interfaces and fullstack web applications.", "level": ""},
+                        "es": {"text": "Construcción de interfaces de usuario modernas y aplicaciones web fullstack."},
+                        "fr": {"text": "Construction d'interfaces utilisateur modernes et d'applications web fullstack."},
+                        "ko": {"text": "현대적인 사용자 인터페이스와 풀스택 웹 애플리케이션 구축."}
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-vuejs",
+                    "faIconColors": {"bg": "", "fill": "#4FC08D", "fillLight": "#2b825b"},
+                    "date": {"year": 2022, "month": 1},
+                    "percentage": 90,
+                    "locales": {
+                        "id": {"title": "VueJS / Nuxt.js", "text": "Framework frontend progresif untuk aplikasi web interaktif.", "level": ""},
+                        "en": {"title": "VueJS / Nuxt.js", "text": "Progressive frontend framework for interactive web applications.", "level": ""},
+                        "es": {"text": "Framework frontend progresivo para aplicaciones web interactivas."},
+                        "fr": {"text": "Framework frontend progressif pour des applications web interactives."},
+                        "ko": {"text": "대화형 웹 애플리케이션을 위한 진보적인 프론트엔드 프레임워크."}
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-brands fa-bootstrap",
+                    "faIconColors": {"bg": "", "fill": "#7952B3"},
+                    "date": {"year": 2021, "month": 6},
+                    "percentage": 90,
+                    "locales": {
+                        "id": {"title": "Tailwind / Bootstrap", "text": "Framework CSS untuk desain yang responsif dan modern.", "level": ""},
+                        "en": {"title": "Tailwind / Bootstrap", "text": "CSS frameworks for responsive and modern design.", "level": ""},
+                        "es": {"text": "Frameworks CSS para diseño responsivo y moderno."},
+                        "fr": {"text": "Frameworks CSS pour un design réactif et moderne."},
+                        "ko": {"text": "반응형 및 현대적 디자인을 위한 CSS 프레임워크."}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 4,
+            "component": "ArticleSkills",
+            "locales": {
+                "id": {"title": "Bahasa"},
+                "en": {"title": "Languages"},
+                "es": {"title": "Idiomas"},
+                "fr": {"title": "Langues"},
+                "ko": {"title": "언어"}
+            },
+            "settings": {
+                "max_items_per_row": 1,
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "round_icons": true
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/flags/id.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "percentage": null,
+                    "locales": {
+                        "id": {"title": "Bahasa Indonesia", "text": "Bahasa ibu dengan kemampuan komunikasi dan penulisan yang sangat baik.", "level": "Native"},
+                        "en": {"title": "Indonesian", "text": "Native speaker with excellent communication and writing skills.", "level": "Native"},
+                        "es": {"title": "Indonesio", "text": "Hablante nativo con excelentes habilidades de comunicación y escritura.", "level": "Nativo"},
+                        "fr": {"title": "Indonésien", "text": "Locuteur natif avec d'excellentes compétences en communication et rédaction.", "level": "Natif"},
+                        "ko": {"title": "인도네시아어", "text": "탁월한 의사소통 및 작문 능력을 갖춘 원어민.", "level": "원어민"}
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/flags/en-us.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "percentage": null,
+                    "locales": {
+                        "id": {"title": "Bahasa Inggris", "text": "Kemampuan menengah dalam membaca, menulis, dan percakapan profesional.", "level": "Intermediate"},
+                        "en": {"title": "English", "text": "Intermediate proficiency in reading, writing, and professional conversations.", "level": "Intermediate"},
+                        "es": {"title": "Inglés", "text": "Competencia intermedia en lectura, escritura y conversaciones profesionales.", "level": "Intermedio"},
+                        "fr": {"title": "Anglais", "text": "Compétence intermédiaire en lecture, écriture et conversations professionnelles.", "level": "Intermédiaire"},
+                        "ko": {"title": "영어", "text": "읽기, 쓰기, 전문적 대화에서의 중급 수준.", "level": "중급"}
+                    }
+                }
+            ]
+        }
+    ]
+}
