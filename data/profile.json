@@ -1,0 +1,64 @@
+{
+    "name": "Muhammad Nasrulloh",
+
+    "profilePictureUrl": "images/pictures/avatar.png",
+    "resumePdfUrl": "cv/Muhammad Nasrulloh-resume.pdf",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+    "locales": {
+        "en": {
+            "localized_name": "Muhammad Nasrulloh",
+            "localized_name_stylized": "[[Muhammad {{Nasrulloh}}]]",
+            "status_message_available_for_freelance": "Available for freelance!",
+            "roles": [
+                "Web Developer",
+                "Backend Developer",
+                "Fullstack Developer",
+                "Photographer"
+            ]
+        },
+        "id": {
+            "localized_name": "Muhammad Nasrulloh",
+            "localized_name_stylized": "[[Muhammad {{Nasrulloh}}]]",
+            "status_message_available_for_freelance": "Tersedia untuk freelance!",
+            "roles": [
+                "Pengembang Web",
+                "Pengembang Backend",
+                "Pengembang Fullstack",
+                "Fotografer"
+            ]
+        },
+        "es": {
+            "status_message_available_for_freelance": "¡Disponible para freelance!",
+            "roles": [
+                "Desarrollador Web",
+                "Desarrollador Backend",
+                "Desarrollador Fullstack",
+                "Fotógrafo"
+            ]
+        },
+        "fr": {
+            "status_message_available_for_freelance": "Disponible pour freelance !",
+            "roles": [
+                "Développeur Web",
+                "Développeur Backend",
+                "Développeur Fullstack",
+                "Photographe"
+            ]
+        },
+        "ko": {
+            "localized_name": "무하마드 나스룰로흐",
+            "localized_name_stylized": "[[무하마드 {{나스룰로흐}}]]",
+            "status_message_available_for_freelance": "프리랜스 가능합니다!",
+            "roles": [
+                "웹 개발자",
+                "백엔드 개발자",
+                "풀스택 개발자",
+                "사진작가"
+            ]
+        }
+    }
+}

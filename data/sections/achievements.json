@@ -1,0 +1,200 @@
+{
+    "title": {
+        "locales": {
+            "id": {
+                "title_short": "Penghargaan",
+                "title_short_nav": "Pencapaian",
+                "title_long_prefix": "Berikut",
+                "title_long": "{{Pencapaian}} Karir Saya"
+            },
+            "en": {
+                "title_short": "Awards",
+                "title_short_nav": "Achievements",
+                "title_long_prefix": "Here are my",
+                "title_long": "Career {{Achievements}}"
+            },
+            "es": {
+                "title_short": "Logros",
+                "title_short_nav": "Logros",
+                "title_long_prefix": "Aquí están mis",
+                "title_long": "{{Logros}} Profesionales"
+            },
+            "fr": {
+                "title_short": "Réalis",
+                "title_short_nav": "Réalisations",
+                "title_long_prefix": "Voici",
+                "title_long": "Mes {{Réalisations}}"
+            },
+            "ko": {
+                "title_short": "경력 성과",
+                "title_short_nav": "경력 성과",
+                "title_long_prefix": "다음은",
+                "title_long": "{{경력 성과}}입니다"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {
+                "id": { "title": "Sertifikasi" },
+                "en": { "title": "Certifications" },
+                "es": { "title": "Certificaciones" },
+                "fr": { "title": "Certifications" },
+                "ko": { "title": "인증서" }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-brands fa-aws",
+                    "faIconColors": {"bg": "#232F3E", "fill": "#FF9900"},
+                    "date": {"year": 2025, "month": 1},
+                    "link": {"href": "https://www.credly.com/badges/263ab5e4-2a9c-4608-9cc3-4d51364bf7a0", "tooltipString": "see_certification"},
+                    "locales": {
+                        "id": {
+                            "title": "{{Amazon}} Web Services",
+                            "text": "AWS Certified – Credly Badge"
+                        },
+                        "en": {
+                            "title": "{{Amazon}} Web Services",
+                            "text": "AWS Certified – Credly Badge"
+                        },
+                        "es": {
+                            "title": "{{Amazon}} Web Services",
+                            "text": "AWS Certificado – Insignia Credly"
+                        },
+                        "fr": {
+                            "title": "{{Amazon}} Web Services",
+                            "text": "AWS Certifié – Badge Credly"
+                        },
+                        "ko": {
+                            "title": "{{Amazon}} Web Services",
+                            "text": "AWS 인증 – Credly 배지"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "id": { "title": "Pencapaian" },
+                "en": { "title": "Achievements" },
+                "es": { "title": "Logros" },
+                "fr": { "title": "Réalisations" },
+                "ko": { "title": "성과" }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": {"year": 2026, "month": 2},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "id": {
+                            "title": "{{Teknisi}} Acara Dimensi",
+                            "province": "Indonesia",
+                            "country": "",
+                            "institution": "Dimensi – Digital Marketing Enthusiast Indonesia",
+                            "text": "Berperan sebagai teknisi acara dalam kegiatan yang diselenggarakan oleh komunitas Dimensi, komunitas digital marketing enthusiast Indonesia."
+                        },
+                        "en": {
+                            "title": "{{Event Technician}} – Dimensi",
+                            "province": "Indonesia",
+                            "country": "",
+                            "institution": "Dimensi – Digital Marketing Enthusiast Indonesia",
+                            "text": "Served as event technician for an event organized by Dimensi, a digital marketing enthusiast community in Indonesia."
+                        },
+                        "es": {
+                            "title": "{{Técnico de Eventos}} – Dimensi",
+                            "province": "Indonesia",
+                            "country": "",
+                            "institution": "Dimensi – Digital Marketing Enthusiast Indonesia",
+                            "text": "Actuó como técnico de eventos para un evento organizado por Dimensi, comunidad de entusiastas del marketing digital en Indonesia."
+                        },
+                        "fr": {
+                            "title": "{{Technicien d'Événement}} – Dimensi",
+                            "province": "Indonésie",
+                            "country": "",
+                            "institution": "Dimensi – Digital Marketing Enthusiast Indonesia",
+                            "text": "A servi comme technicien d'événement lors d'un événement organisé par Dimensi, une communauté d'enthousiastes du marketing digital en Indonésie."
+                        },
+                        "ko": {
+                            "title": "{{이벤트 기술자}} – Dimensi",
+                            "province": "인도네시아",
+                            "country": "",
+                            "institution": "Dimensi – Digital Marketing Enthusiast Indonesia",
+                            "text": "인도네시아 디지털 마케팅 열성 커뮤니티 Dimensi가 주최한 행사에서 이벤트 기술자로 활동했습니다."
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "date": {"year": 2026, "month": 8},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "id": {
+                            "title": "{{Pemateri Teknis}} Seminar Private",
+                            "province": "Yogyakarta",
+                            "country": "Indonesia",
+                            "institution": "The Malioboro Hotel",
+                            "text": "Menjadi pemateri dalam seminar private yang diselenggarakan di The Malioboro Hotel, Yogyakarta."
+                        },
+                        "en": {
+                            "title": "{{Technical Speaker}} – Private Seminar",
+                            "province": "Yogyakarta",
+                            "country": "Indonesia",
+                            "institution": "The Malioboro Hotel",
+                            "text": "Served as a speaker at a private seminar held at The Malioboro Hotel, Yogyakarta."
+                        },
+                        "es": {
+                            "title": "{{Ponente Técnico}} – Seminario Privado",
+                            "province": "Yogyakarta",
+                            "country": "Indonesia",
+                            "institution": "The Malioboro Hotel",
+                            "text": "Actuó como ponente en un seminario privado celebrado en The Malioboro Hotel, Yogyakarta."
+                        },
+                        "fr": {
+                            "title": "{{Intervenant Technique}} – Séminaire Privé",
+                            "province": "Yogyakarta",
+                            "country": "Indonésie",
+                            "institution": "The Malioboro Hotel",
+                            "text": "A servi comme intervenant lors d'un séminaire privé tenu au The Malioboro Hotel, Yogyakarta."
+                        },
+                        "ko": {
+                            "title": "{{기술 발표자}} – 프라이빗 세미나",
+                            "province": "족자카르타",
+                            "country": "인도네시아",
+                            "institution": "The Malioboro Hotel",
+                            "text": "족자카르타 The Malioboro Hotel에서 열린 프라이빗 세미나에서 발표자로 참여했습니다."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

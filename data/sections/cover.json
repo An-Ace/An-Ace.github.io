@@ -1,0 +1,357 @@
+{
+    "title": {
+        "locales": {
+            "id": {
+                "title_short": "Selamat datang!",
+                "title_short_nav": "Tentang Saya",
+                "title_long_prefix": "Halo...",
+                "title_long": "Saya {{Nasrulloh!}}"
+            },
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Nasrulloh!}}"
+            },
+            "es": {
+                "title_short": "¡Saludos!",
+                "title_short_nav": "Sobre mí",
+                "title_long_prefix": "Hola...",
+                "title_long": "Soy {{Nasrulloh!}}"
+            },
+            "fr": {
+                "title_short": "Salut !",
+                "title_short_nav": "À propos",
+                "title_long_prefix": "Salut...",
+                "title_long": "Je suis {{Nasrulloh !}}"
+            },
+            "ko": {
+                "title_short": "환영합니다!",
+                "title_short_nav": "소개",
+                "title_long_prefix": "안녕하세요...",
+                "title_long": "저는 {{Nasrulloh}}입니다!"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Mojokerto, Indonesia",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "pi pi-map-marker"
+                },
+                {
+                    "id": 2,
+                    "label": "muhammadnasrulloh.id@gmail.com",
+                    "link": {"href": "mailto:muhammadnasrulloh.id@gmail.com", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "@An-Ace",
+                    "link": {"href": "https://github.com/An-Ace", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "id": {"title": "{{Sedikit}} tentang saya..."},
+                "en": {"title": "{{A little bit}} about me..."},
+                "es": {"title": "{{Un poco}} sobre mí..."},
+                "fr": {"title": "{{Un peu}} à propos de moi..."},
+                "ko": {"title": "저에 {{대해 조금}}..."}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "id": {
+                            "text": "<p>Selama tiga tahun terakhir, saya telah mendedikasikan sebagian besar waktu saya untuk merancang, memprogram, dan mengoperasikan website {{Fullstack}} menggunakan Nuxt dan Next.js. Saya terus berupaya mendorong batas-batas pengembangan web, menggabungkan keahlian teknis dengan desain kreatif untuk menghadirkan solusi web yang eksklusif dan inovatif.</p><p>Saya juga aktif memanfaatkan [[teknologi AI]] sebagai penunjang produktivitas dan mengintegrasikannya langsung ke dalam proyek — mulai dari otomasi alur kerja, code generation, hingga fitur berbasis AI untuk meningkatkan nilai produk.</p><p>Saya berharap bisa [[berkolaborasi dengan Anda!]]</p>"
+                        },
+                        "en": {
+                            "text": "<p>Over the past three years, I've dedicated the majority of my time to designing, programming, and operating {{Fullstack}} websites using Nuxt and Next.js. I strive to push the boundaries of web development, combining technical expertise with creative design to deliver exclusive and innovative web solutions.</p><p>I also actively leverage [[AI technology]] as a productivity booster and wrap it directly into my projects — from workflow automation and code generation to AI-powered features that enhance product value.</p><p>I look forward to collaborating [[with you!]]</p>"
+                        },
+                        "es": {
+                            "text": "<p>Durante los últimos tres años, he dedicado la mayor parte de mi tiempo a diseñar, programar y operar sitios web {{Fullstack}} usando Nuxt y Next.js. Me esfuerzo por superar los límites del desarrollo web, combinando experiencia técnica con diseño creativo.</p><p>También aprovecho activamente la [[tecnología de IA]] como apoyo a la productividad y la integro directamente en mis proyectos, desde la automatización hasta funcionalidades impulsadas por IA.</p><p>¡Espero [[colaborar contigo!]]</p>"
+                        },
+                        "fr": {
+                            "text": "<p>Au cours des trois dernières années, j'ai consacré la majeure partie de mon temps à concevoir, programmer et exploiter des sites web {{Fullstack}} en utilisant Nuxt et Next.js.</p><p>J'exploite également activement la [[technologie IA]] comme soutien à la productivité et l'intègre directement dans mes projets — de l'automatisation des flux de travail aux fonctionnalités basées sur l'IA.</p><p>J'espère collaborer [[avec vous !]]</p>"
+                        },
+                        "ko": {
+                            "text": "<p>지난 3년 동안 Nuxt와 Next.js를 사용한 {{풀스택}} 웹사이트 설계, 프로그래밍 및 운영에 대부분의 시간을 쏟아왔습니다.</p><p>또한 [[AI 기술]]을 생산성 도구로 적극 활용하고 프로젝트에 직접 통합합니다 — 워크플로우 자동화, 코드 생성부터 AI 기반 기능 구현까지.</p><p>[[함께 협업]]하기를 기대합니다!</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleTestimonials",
+            "locales": {
+                "id": {"title": "{{Testimoni}} klien"},
+                "en": {"title": "Client {{testimonials}}"},
+                "es": {"title": "Testimonios de {{clientes}}"},
+                "fr": {"title": "Témoignages de {{clients}}"},
+                "ko": {"title": "{{고객}} 추천사"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Agung Barola",
+                    "link": {"href": "", "tooltipString": ""},
+                    "img": "",
+                    "faIcon": "fa-solid fa-user-tie",
+                    "faIconColors": {"bg": "#e67e22", "fill": "#EEE"},
+                    "locales": {
+                        "id": {
+                            "title": "Klien — [[MyBuild.id]]",
+                            "text": "Nasrulloh adalah Backend Team Lead yang sangat andal. Kemampuannya dalam [[merancang arsitektur sistem]] dan memimpin tim backend benar-benar membawa MyBuild.id ke level berikutnya. Tim bekerja terstruktur dan hasilnya melampaui ekspektasi."
+                        },
+                        "en": {
+                            "title": "Client — [[MyBuild.id]]",
+                            "text": "Nasrulloh is an extremely reliable Backend Team Lead. His ability to [[design system architecture]] and lead the backend team truly brought MyBuild.id to the next level. The team worked in an organized manner and the results exceeded expectations."
+                        },
+                        "es": {
+                            "title": "Cliente — [[MyBuild.id]]",
+                            "text": "Nasrulloh es un Backend Team Lead extremadamente confiable. Su capacidad para [[diseñar la arquitectura del sistema]] llevó a MyBuild.id al siguiente nivel."
+                        },
+                        "fr": {
+                            "title": "Client — [[MyBuild.id]]",
+                            "text": "Nasrulloh est un Backend Team Lead extrêmement fiable. Sa capacité à [[concevoir l'architecture système]] a porté MyBuild.id au niveau supérieur."
+                        },
+                        "ko": {
+                            "title": "클라이언트 — [[MyBuild.id]]",
+                            "text": "Nasrulloh는 매우 신뢰할 수 있는 백엔드 팀 리드입니다. [[시스템 아키텍처 설계]] 능력과 팀 리더십이 MyBuild.id를 다음 단계로 끌어올렸습니다."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "label": "Rezha Adi Nugroho",
+                    "link": {"href": "", "tooltipString": ""},
+                    "img": "",
+                    "faIcon": "fa-solid fa-user-tie",
+                    "faIconColors": {"bg": "#c0392b", "fill": "#EEE"},
+                    "locales": {
+                        "id": {
+                            "title": "Klien — [[PT. Mitra Kanigara Solusi]]",
+                            "text": "Bekerja dengan Nasrulloh sebagai Fullstack Developer & Cloud Engineer adalah pengalaman luar biasa. Ia mampu [[mengelola ekosistem produk Roket]] dari sisi teknis secara menyeluruh, mulai dari infrastruktur cloud hingga pengembangan fitur. Sangat profesional dan solutif."
+                        },
+                        "en": {
+                            "title": "Client — [[PT. Mitra Kanigara Solusi]]",
+                            "text": "Working with Nasrulloh as a Fullstack Developer & Cloud Engineer was an outstanding experience. He was able to [[manage the entire Roket product ecosystem]] technically, from cloud infrastructure to feature development. Highly professional and solution-oriented."
+                        },
+                        "es": {
+                            "title": "Cliente — [[PT. Mitra Kanigara Solusi]]",
+                            "text": "Trabajar con Nasrulloh fue una experiencia sobresaliente. [[Gestionó todo el ecosistema Roket]] con gran profesionalismo, desde infraestructura cloud hasta desarrollo de funcionalidades."
+                        },
+                        "fr": {
+                            "title": "Client — [[PT. Mitra Kanigara Solusi]]",
+                            "text": "Travailler avec Nasrulloh était une expérience remarquable. Il a [[géré l'ensemble de l'écosystème Roket]] de manière très professionnelle, de l'infrastructure cloud au développement."
+                        },
+                        "ko": {
+                            "title": "클라이언트 — [[PT. Mitra Kanigara Solusi]]",
+                            "text": "Nasrulloh와의 협업은 탁월한 경험이었습니다. [[Roket 제품 생태계 전체를]] 클라우드 인프라부터 기능 개발까지 전문적으로 관리했습니다."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "label": "Muhammad Mifzan",
+                    "link": {"href": "", "tooltipString": ""},
+                    "img": "",
+                    "faIcon": "fa-solid fa-user-tie",
+                    "faIconColors": {"bg": "#1a5276", "fill": "#EEE"},
+                    "locales": {
+                        "id": {
+                            "title": "Klien — [[PT. Kotak Putih Indonesia]]",
+                            "text": "Nasrulloh mengerjakan backend platform survei BTN dengan sangat baik. [[API yang dibangun berjalan stabil]] dan aman, integrasi dengan sistem BTN berjalan mulus. Ia responsif, detail, dan selalu memberikan solusi teknis yang tepat sasaran."
+                        },
+                        "en": {
+                            "title": "Client — [[PT. Kotak Putih Indonesia]]",
+                            "text": "Nasrulloh did an excellent job on the BTN survey platform backend. [[The APIs he built are stable]] and secure, and the BTN system integration ran smoothly. He is responsive, detail-oriented, and always delivers precise technical solutions."
+                        },
+                        "es": {
+                            "title": "Cliente — [[PT. Kotak Putih Indonesia]]",
+                            "text": "Nasrulloh hizo un excelente trabajo en el backend de la plataforma de encuestas BTN. [[Las APIs son estables]] y seguras. Muy responsivo y orientado al detalle."
+                        },
+                        "fr": {
+                            "title": "Client — [[PT. Kotak Putih Indonesia]]",
+                            "text": "Nasrulloh a fait un excellent travail sur le backend de la plateforme BTN. [[Les API sont stables]] et sécurisées, l'intégration s'est déroulée sans accroc."
+                        },
+                        "ko": {
+                            "title": "클라이언트 — [[PT. Kotak Putih Indonesia]]",
+                            "text": "Nasrulloh는 BTN 설문 플랫폼 백엔드를 훌륭하게 구현했습니다. [[API는 안정적이고 안전하며]] BTN 시스템 통합도 원활하게 진행되었습니다."
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 4,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "id": {"title": "Minat {{pribadi}}"},
+                "en": {"title": "Personal {{interests}}"},
+                "es": {"title": "Intereses {{personales}}"},
+                "fr": {"title": "Intérêts {{personnels}} "},
+                "ko": {"title": "개인 {{관심사}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "id": {
+                            "title": "{{AI}} Enthusiast",
+                            "text": "Mengikuti perkembangan AI dan mengeksplorasi penggunaannya dalam pengembangan software."
+                        },
+                        "en": {
+                            "title": "{{AI}} Enthusiast",
+                            "text": "Following AI developments and exploring its applications in software development."
+                        },
+                        "es": {
+                            "title": "Entusiasta de {{IA}}",
+                            "text": "Siguiendo los avances en IA y explorando sus aplicaciones en el desarrollo de software."
+                        },
+                        "fr": {
+                            "title": "Passionné d'{{IA}}",
+                            "text": "Suivre les avancées de l'IA et explorer ses applications dans le développement logiciel."
+                        },
+                        "ko": {
+                            "title": "{{AI}} 애호가",
+                            "text": "AI 발전을 팔로우하고 소프트웨어 개발에서의 활용을 탐구합니다."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-camera-retro",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "id": {
+                            "title": "{{Fotografi}} & Editing",
+                            "text": "Mengabadikan momen dan mengeksplorasi teknik editing kreatif."
+                        },
+                        "en": {
+                            "title": "{{Photography}} & Editing",
+                            "text": "Capturing moments and exploring creative editing techniques."
+                        },
+                        "es": {
+                            "title": "{{Fotografía}} y Edición",
+                            "text": "Capturando momentos y explorando técnicas creativas de edición."
+                        },
+                        "fr": {
+                            "title": "{{Photographie}} & Édition",
+                            "text": "Capturer des moments et explorer des techniques d'édition créatives."
+                        },
+                        "ko": {
+                            "title": "{{사진}} 및 편집",
+                            "text": "순간을 포착하고 창의적인 편집 기술을 탐험합니다."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "id": {
+                            "title": "{{Open Source}} Development",
+                            "text": "Berkontribusi pada proyek open source dan komunitas developer."
+                        },
+                        "en": {
+                            "title": "{{Open Source}} Development",
+                            "text": "Contributing to open source projects and developer communities."
+                        },
+                        "es": {
+                            "title": "Desarrollo {{Open Source}}",
+                            "text": "Contribuyendo a proyectos de código abierto y comunidades de desarrolladores."
+                        },
+                        "fr": {
+                            "title": "Développement {{Open Source}}",
+                            "text": "Contribution à des projets open source et à des communautés de développeurs."
+                        },
+                        "ko": {
+                            "title": "{{오픈 소스}} 개발",
+                            "text": "오픈 소스 프로젝트와 개발자 커뮤니티에 기여합니다."
+                        }
+                    }
+                },
+                
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-window-restore",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "id": {
+                            "title": "Desain {{UI/UX}}",
+                            "text": "Mempelajari prinsip-prinsip pengalaman pengguna yang baik."
+                        },
+                        "en": {
+                            "title": "{{UI/UX}} Design",
+                            "text": "Studying user experience and interface design principles."
+                        },
+                        "es": {
+                            "title": "Diseño {{UI/UX}}",
+                            "text": "Estudiando principios de experiencia de usuario y diseño de interfaces."
+                        },
+                        "fr": {
+                            "title": "Conception {{UI/UX}}",
+                            "text": "Étudier les principes d'expérience utilisateur et de conception d'interfaces."
+                        },
+                        "ko": {
+                            "title": "{{UI/UX}} 디자인",
+                            "text": "사용자 경험 및 인터페이스 디자인 원칙을 공부합니다."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

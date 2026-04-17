@@ -1,0 +1,332 @@
+{
+    "title": {
+        "locales": {
+            "id": {
+                "title_short": "Portofolio",
+                "title_short_nav": "Portofolio",
+                "title_long_prefix": "Lihat",
+                "title_long": "{{Portofolio}} Saya"
+            },
+            "en": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Take a look at",
+                "title_long": "My {{Portfolio}}"
+            },
+            "es": {
+                "title_short": "Portafolio",
+                "title_short_nav": "Portafolio",
+                "title_long_prefix": "Explora",
+                "title_long": "Mi {{Portafolio}}"
+            },
+            "fr": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Découvrez",
+                "title_long": "Mon {{Portfolio}}"
+            },
+            "ko": {
+                "title_short": "포트폴리오",
+                "title_short_nav": "포트폴리오",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{포트폴리오}}입니다"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "id": {
+                    "category_all": "Semua",
+                    "category_web": "Web",
+                    "category_platform": "Platform",
+                    "category_survey": "Survei"
+                },
+                "en": {
+                    "category_all": "All",
+                    "category_web": "Web",
+                    "category_platform": "Platform",
+                    "category_survey": "Survey"
+                },
+                "es": {
+                    "category_all": "Todo",
+                    "category_web": "Web",
+                    "category_platform": "Plataforma",
+                    "category_survey": "Encuesta"
+                },
+                "fr": {
+                    "category_all": "Tout",
+                    "category_web": "Web",
+                    "category_platform": "Plateforme",
+                    "category_survey": "Sondage"
+                },
+                "ko": {
+                    "category_all": "모두",
+                    "category_web": "웹",
+                    "category_platform": "플랫폼",
+                    "category_survey": "설문"
+                }
+            },
+            "settings": {
+                "categorize_by": ["category_web", "category_platform", "category_survey"],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_survey",
+                    "img": "images/pictures/portfolio-project-logo-btn.png",
+                    "faIcon": "fa-solid fa-clipboard-list",
+                    "faIconColors": {"bg": "#FFFF", "fill": "#EEE"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://b5.whitebox.id", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "id": {
+                            "title": "Survey BTN",
+                            "text": "Platform survei digital untuk Bank Tabungan Negara (BTN) yang dibangun untuk PT. Kotak Putih Indonesia (Klien: Muhammad Mifzan). Mengelola distribusi survei, pengumpulan data responden, dan analisis hasil secara terpusat. Role: <b>Backend Developer</b>.",
+                            "tags": ["Backend", "Survey", "PostgreSQL", "Banking"]
+                        },
+                        "en": {
+                            "title": "Survey BTN",
+                            "text": "A digital survey platform for Bank Tabungan Negara (BTN) built for PT. Kotak Putih Indonesia (Client: Muhammad Mifzan). Manages survey distribution, respondent data collection, and centralized result analysis. Role: <b>Backend Developer</b>.",
+                            "tags": ["Backend", "Survey", "PostgreSQL", "Banking"]
+                        },
+                        "es": {
+                            "title": "Survey BTN",
+                            "text": "Plataforma de encuestas digitales para Bank Tabungan Negara (BTN). (Cliente: Muhammad Mifzan, PT. Kotak Putih Indonesia). Rol: <b>Backend Developer</b>.",
+                            "tags": ["Backend", "Survey", "PostgreSQL", "Banking"]
+                        },
+                        "fr": {
+                            "title": "Survey BTN",
+                            "text": "Plateforme de sondages numériques pour la Bank Tabungan Negara (BTN). (Client : Muhammad Mifzan, PT. Kotak Putih Indonesia). Rôle : <b>Backend Developer</b>.",
+                            "tags": ["Backend", "Survey", "PostgreSQL", "Banking"]
+                        },
+                        "ko": {
+                            "title": "Survey BTN",
+                            "text": "Bank Tabungan Negara(BTN)를 위한 디지털 설문 플랫폼. 역할: <b>백엔드 개발자</b>.",
+                            "tags": ["Backend", "Survey", "PostgreSQL", "Banking"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_platform",
+                    "img": "images/pictures/portfolio-project-logo-roketmarket.jpg",
+                    "faIcon": "fa-solid fa-rocket",
+                    "faIconColors": {"bg": "#c0392b", "fill": "#EEE"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://roketmarket.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "id": {
+                            "title": "Roket Ecosystem",
+                            "text": "Ekosistem produk digital di bawah PT. Mitra Kanigara Solusi (Klien: Rezha Adi Nugroho) meliputi: <b>roketmarket.com</b> (marketplace), <b>roketchat.com</b> (komunikasi), <b>roketmedia.id</b> (media), dan <b>vistudio.id</b> (studio kreatif). Role: <b>Fullstack Developer & Cloud Engineer</b>.",
+                            "tags": ["Fullstack", "Cloud Engineer", "Marketplace", "Ecosystem"]
+                        },
+                        "en": {
+                            "title": "Roket Ecosystem",
+                            "text": "A digital product ecosystem under PT. Mitra Kanigara Solusi (Client: Rezha Adi Nugroho) covering: <b>roketmarket.com</b> (marketplace), <b>roketchat.com</b> (communication), <b>roketmedia.id</b> (media), and <b>vistudio.id</b> (creative studio). Role: <b>Fullstack Developer & Cloud Engineer</b>.",
+                            "tags": ["Fullstack", "Cloud Engineer", "Marketplace", "Ecosystem"]
+                        },
+                        "es": {
+                            "title": "Roket Ecosystem",
+                            "text": "Ecosistema de productos digitales: <b>roketmarket.com</b>, <b>roketchat.com</b>, <b>roketmedia.id</b>, <b>vistudio.id</b>. (Cliente: Rezha Adi Nugroho, PT. Mitra Kanigara Solusi). Rol: <b>Fullstack Developer & Cloud Engineer</b>.",
+                            "tags": ["Fullstack", "Cloud Engineer", "Marketplace", "Ecosystem"]
+                        },
+                        "fr": {
+                            "title": "Roket Ecosystem",
+                            "text": "Écosystème de produits numériques : <b>roketmarket.com</b>, <b>roketchat.com</b>, <b>roketmedia.id</b>, <b>vistudio.id</b>. (Client : Rezha Adi Nugroho, PT. Mitra Kanigara Solusi). Rôle : <b>Fullstack Developer & Cloud Engineer</b>.",
+                            "tags": ["Fullstack", "Cloud Engineer", "Marketplace", "Ecosystem"]
+                        },
+                        "ko": {
+                            "title": "Roket Ecosystem",
+                            "text": "디지털 제품 생태계: <b>roketmarket.com</b>, <b>roketchat.com</b>, <b>roketmedia.id</b>, <b>vistudio.id</b>. 역할: <b>풀스택 개발자 & 클라우드 엔지니어</b>.",
+                            "tags": ["Fullstack", "Cloud Engineer", "Marketplace", "Ecosystem"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_platform",
+                    "img": "images/pictures/portfolio-project-logo-mybuild.jpg",
+                    "faIcon": "fa-solid fa-hammer",
+                    "faIconColors": {"bg": "#e67e22", "fill": "#EEE"},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "id": {
+                            "title": "MyBuild.id",
+                            "text": "Platform digital untuk industri konstruksi Indonesia. Menghubungkan kontraktor, supplier, dan klien dalam satu ekosistem terintegrasi. Role: <b>Backend Team Lead</b>. (Klien: Agung Barola)",
+                            "tags": ["Backend", "Team Lead", "Construction Tech"]
+                        },
+                        "en": {
+                            "title": "MyBuild.id",
+                            "text": "A digital platform for the Indonesian construction industry. Connecting contractors, suppliers, and clients in one integrated ecosystem. Role: <b>Backend Team Lead</b>. (Client: Agung Barola)",
+                            "tags": ["Backend", "Team Lead", "Construction Tech"]
+                        },
+                        "es": {
+                            "title": "MyBuild.id",
+                            "text": "Plataforma digital para la industria de construcción indonesa. Conecta contratistas, proveedores y clientes. Rol: <b>Backend Team Lead</b>. (Cliente: Agung Barola)",
+                            "tags": ["Backend", "Team Lead", "Construction Tech"]
+                        },
+                        "fr": {
+                            "title": "MyBuild.id",
+                            "text": "Plateforme numérique pour l'industrie de la construction en Indonésie. Connecte entrepreneurs, fournisseurs et clients. Rôle : <b>Backend Team Lead</b>. (Client : Agung Barola)",
+                            "tags": ["Backend", "Team Lead", "Construction Tech"]
+                        },
+                        "ko": {
+                            "title": "MyBuild.id",
+                            "text": "인도네시아 건설 산업을 위한 디지털 플랫폼. 역할: <b>백엔드 팀 리드</b>. (클라이언트: Agung Barola)",
+                            "tags": ["Backend", "Team Lead", "Construction Tech"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_platform",
+                    "img": "",
+                    "faIcon": "fa-solid fa-utensils",
+                    "faIconColors": {"bg": "#c0392b", "fill": "#EEE"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://whitebox.id/projects/pesen-id", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "id": {
+                            "title": "PESEN.ID",
+                            "text": "Platform pemesanan makanan online dibangun dengan <b>Next.js 13</b>. Menyediakan antarmuka yang mudah untuk browsing menu, pemesanan, dan pelacakan pengiriman real-time. (Klien: Whitebox.id)",
+                            "tags": ["Next.js", "MySQL", "Clerk Auth", "SaaS"]
+                        },
+                        "en": {
+                            "title": "PESEN.ID",
+                            "text": "An online food ordering platform built with <b>Next.js 13</b>. Provides an easy interface for browsing menus, placing orders, and real-time delivery tracking. (Client: Whitebox.id)",
+                            "tags": ["Next.js", "MySQL", "Clerk Auth", "SaaS"]
+                        },
+                        "es": {
+                            "title": "PESEN.ID",
+                            "text": "Plataforma de pedidos en línea con <b>Next.js 13</b>. Menús, pedidos y seguimiento en tiempo real. (Cliente: Whitebox.id)",
+                            "tags": ["Next.js", "MySQL", "Clerk Auth", "SaaS"]
+                        },
+                        "fr": {
+                            "title": "PESEN.ID",
+                            "text": "Plateforme de commande en ligne avec <b>Next.js 13</b>. Menus, commandes et suivi en temps réel. (Client : Whitebox.id)",
+                            "tags": ["Next.js", "MySQL", "Clerk Auth", "SaaS"]
+                        },
+                        "ko": {
+                            "title": "PESEN.ID",
+                            "text": "<b>Next.js 13</b>으로 구축된 온라인 음식 주문 플랫폼. (클라이언트: Whitebox.id)",
+                            "tags": ["Next.js", "MySQL", "Clerk Auth", "SaaS"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_platform",
+                    "img": "",
+                    "faIcon": "fa-solid fa-graduation-cap",
+                    "faIconColors": {"bg": "#1a1a2e", "fill": "#EEE"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://whitebox.id/projects/plato-brand", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "id": {
+                            "title": "PLATO (LMS)",
+                            "text": "Sistem manajemen pembelajaran berbasis web yang dibangun dengan <b>Next.js 13</b> dan <b>MySQL</b>. Memungkinkan pengelolaan kursus, siswa, penilaian, dan sertifikasi secara menyeluruh. (Klien: Whitebox.id)",
+                            "tags": ["Next.js", "MySQL", "SaaS", "LMS"]
+                        },
+                        "en": {
+                            "title": "PLATO (LMS)",
+                            "text": "A comprehensive web-based Learning Management System built with <b>Next.js 13</b> and <b>MySQL</b>. Enables seamless management of courses, students, assessments, and certifications. (Client: Whitebox.id)",
+                            "tags": ["Next.js", "MySQL", "SaaS", "LMS"]
+                        },
+                        "es": {
+                            "title": "PLATO (LMS)",
+                            "text": "Un Sistema de Gestión de Aprendizaje construido con <b>Next.js 13</b> y <b>MySQL</b>. Permite gestión de cursos, estudiantes, evaluaciones y certificaciones. (Cliente: Whitebox.id)",
+                            "tags": ["Next.js", "MySQL", "SaaS", "LMS"]
+                        },
+                        "fr": {
+                            "title": "PLATO (LMS)",
+                            "text": "Un Système de Gestion d'Apprentissage construit avec <b>Next.js 13</b> et <b>MySQL</b>. Gestion des cours, étudiants, évaluations et certifications. (Client : Whitebox.id)",
+                            "tags": ["Next.js", "MySQL", "SaaS", "LMS"]
+                        },
+                        "ko": {
+                            "title": "PLATO (LMS)",
+                            "text": "<b>Next.js 13</b>과 <b>MySQL</b>로 구축된 학습 관리 시스템. 강좌, 학생, 평가 및 인증 관리. (클라이언트: Whitebox.id)",
+                            "tags": ["Next.js", "MySQL", "SaaS", "LMS"]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-id-card",
+                    "faIconColors": {"bg": "#2c3e50", "fill": "#EEE"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://an-ace.github.io", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "id": {
+                            "title": "My Resume (vCard)",
+                            "text": "Website resume/vCard pribadi dibangun dengan <b>Vue + Vite</b> dan <b>Tailwind CSS</b>. Menampilkan portofolio, pengalaman kerja, dan informasi kontak.",
+                            "tags": ["Vue.js", "Vite", "Tailwind CSS"]
+                        },
+                        "en": {
+                            "title": "My Resume (vCard)",
+                            "text": "A personal resume/vCard website built with <b>Vue + Vite</b> and <b>Tailwind CSS</b>. Showcases portfolio, work experience, and contact information.",
+                            "tags": ["Vue.js", "Vite", "Tailwind CSS"]
+                        },
+                        "es": {
+                            "title": "My Resume (vCard)",
+                            "text": "Sitio web de CV personal con <b>Vue + Vite</b> y <b>Tailwind CSS</b>.",
+                            "tags": ["Vue.js", "Vite", "Tailwind CSS"]
+                        },
+                        "fr": {
+                            "title": "My Resume (vCard)",
+                            "text": "Site web de CV personnel avec <b>Vue + Vite</b> et <b>Tailwind CSS</b>.",
+                            "tags": ["Vue.js", "Vite", "Tailwind CSS"]
+                        },
+                        "ko": {
+                            "title": "My Resume (vCard)",
+                            "text": "<b>Vue + Vite</b>와 <b>Tailwind CSS</b>로 구축된 개인 이력서 웹사이트.",
+                            "tags": ["Vue.js", "Vite", "Tailwind CSS"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
