@@ -1,0 +1,13 @@
+{
+  "title": "Sports is a programmer's best medicine",
+  "category": "Health & Wellness",
+  "postedOn": "2023-07-10T12:00:00.000Z",
+  "postedBy": "Anas",
+  "img": "/blogs/img/sports-programmers.png",
+  "tags": [
+    { "name": "SPORTS" },
+    { "name": "HEALTH" },
+    { "name": "WELLNESS" }
+  ],
+  "content": "<div><h3 class=\"mb-3 text-lg font-medium text-black dark:text-white xl:text-2xl\">The Importance of Physical Activity</h3><p class=\"text-regular leading-[2]\">For programmers, physical activity can enhance cognitive function and reduce stress. Engaging in sports provides a much-needed break from coding.</p><br><h3 class=\"mb-3 text-lg font-medium text-black dark:text-white xl:text-2xl\">Finding the Right Sport</h3><ul class=\"text-regular leading-[2] list-disc ml-5 my-4\"><li>Choose a sport that you enjoy</li><li>Incorporate short breaks for physical activity during work hours</li><li>Consider team sports for social engagement</li></ul></div>"
+}

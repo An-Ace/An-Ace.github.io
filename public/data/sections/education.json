@@ -1,0 +1,105 @@
+{
+    "title": {
+        "locales": {
+            "id": {
+                "title_short": "Pendidikan",
+                "title_short_nav": "Pendidikan",
+                "title_long_prefix": "Ini adalah",
+                "title_long": "Latar Belakang {{Pendidikan}}"
+            },
+            "en": {
+                "title_short": "Education",
+                "title_short_nav": "Education",
+                "title_long_prefix": "This is my",
+                "title_long": "{{Education}} Background"
+            },
+            "es": {
+                "title_short": "Educación",
+                "title_short_nav": "Educación",
+                "title_long_prefix": "Esta es mi",
+                "title_long": "{{Formación}} Educativa"
+            },
+            "fr": {
+                "title_short": "Éducation",
+                "title_short_nav": "Éducation",
+                "title_long_prefix": "C'est mon",
+                "title_long": "{{Contexte}} Éducatif"
+            },
+            "ko": {
+                "title_short": "교육",
+                "title_short_nav": "교육",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{교육적}} 배경"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-graduation-cap",
+                    "faIconColors": {"bg": "#003399", "fill": "#EEE"},
+                    "dateStart": {"year": 2020, "month": 8},
+                    "dateEnd": {"year": 2023, "month": 7},
+                    "locales": {
+                        "id": {
+                            "title": "{{Diploma}} Teknik Komputer",
+                            "province": "Surabaya",
+                            "country": "Indonesia",
+                            "institution": "Politeknik Elektronika Negeri Surabaya",
+                            "text": "Menempuh program Diploma III dengan fokus pada pengembangan teknologi untuk meningkatkan desain dan pengembangan produk. Memperoleh [[pengalaman langsung]] dalam pengembangan perangkat lunak, pemrograman web, dan desain sistem.",
+                            "list": [],
+                            "tags": ["Web Development", "Software Engineering", "Database"]
+                        },
+                        "en": {
+                            "title": "{{Diploma}} in Computer Engineering",
+                            "province": "Surabaya",
+                            "country": "Indonesia",
+                            "institution": "Politeknik Elektronika Negeri Surabaya",
+                            "text": "Completed a Diploma III program with a focus on leveraging advanced technologies to enhance product design and development. Gained [[hands-on experience]] in software development, web programming, and system design.",
+                            "list": [],
+                            "tags": ["Web Development", "Software Engineering", "Database"]
+                        },
+                        "es": {
+                            "title": "{{Diploma}} en Ingeniería Informática",
+                            "province": "Surabaya",
+                            "country": "Indonesia",
+                            "institution": "Politeknik Elektronika Negeri Surabaya",
+                            "text": "Completé un programa de Diploma III con enfoque en el uso de tecnologías avanzadas para mejorar el diseño y desarrollo de productos. Adquirí [[experiencia práctica]] en desarrollo de software, programación web y diseño de sistemas.",
+                            "list": [],
+                            "tags": ["Web Development", "Software Engineering", "Database"]
+                        },
+                        "fr": {
+                            "title": "{{Diplôme}} en Génie Informatique",
+                            "province": "Surabaya",
+                            "country": "Indonésie",
+                            "institution": "Politeknik Elektronika Negeri Surabaya",
+                            "text": "Obtenu un diplôme de niveau III avec un accent sur l'utilisation des technologies avancées pour améliorer la conception et le développement de produits. Acquis une [[expérience pratique]] en développement logiciel, programmation web et conception de systèmes.",
+                            "list": [],
+                            "tags": ["Web Development", "Software Engineering", "Database"]
+                        },
+                        "ko": {
+                            "title": "컴퓨터 공학 {{전문학사}}",
+                            "province": "수라바야",
+                            "country": "인도네시아",
+                            "institution": "Politeknik Elektronika Negeri Surabaya",
+                            "text": "제품 설계 및 개발 향상을 위한 첨단 기술 활용에 중점을 둔 전문학사 과정을 수료하였습니다. 소프트웨어 개발, 웹 프로그래밍, 시스템 설계에서 [[실무 경험]]을 쌓았습니다.",
+                            "list": [],
+                            "tags": ["Web Development", "Software Engineering", "Database"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

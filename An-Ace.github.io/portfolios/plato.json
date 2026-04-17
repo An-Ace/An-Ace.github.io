@@ -1,0 +1,18 @@
+{
+  "title": "PLATO (Learning Management System)",
+  "client": "WHITEBOX.ID",
+  "services": "SaaS Learning Management Systems",
+  "workStart": "2023-12-01T00:00:00.000Z",
+  "workEnd": "2024-07-31T00:00:00.000Z",
+  "img": "/portfolios/img/plato.png",
+  "link": "https://pla-to.com",
+  "technologies": [
+    { "name": "NEXT.JS 13 (Fullstack)", "img": "/tools/next.svg", "invert": true },
+    { "name": "SHADCN (Design Model)", "img": "/tools/shadcn.svg" },
+    { "name": "Tailwind (CSS Utility)", "img": "/tools/tailwind.svg" },
+    { "name": "Drizzle (ORM)", "img": "/tools/drizzle.svg" },
+    { "name": "MySQL (DBMS)", "img": "/tools/mysql-old.svg" },
+    { "name": "Redis (Cache)", "img": "/tools/redis.svg" }
+  ],
+  "content": "<div><h3 class=\"mb-3 text-lg font-medium text-black dark:text-white xl:text-2xl\">Project Description</h3><p class=\"text-regular !leading-[2]\">Pla-to LMS is a comprehensive, web-based Learning Management System designed to facilitate online education and training. The platform allows educational institutions, corporate trainers, and independent course creators to manage, deliver, and track learning content in an intuitive, user-friendly environment. Pla-to LMS enables seamless management of courses, students, assessments, and certifications, while providing robust analytics to monitor learners' progress.</p><h3 class=\"mt-3 text-md font-medium text-black dark:text-white xl:text-2xl\">JOBDESC</h3><ul class=\"text-regular !leading-[2] list-disc ml-6 my-4\"><li>Designing and Developing API</li><li>Database Design and Management</li><li>Authentication & Authorization</li><li>Course and Content Management</li><li>Assessment and Grading System</li><li>Performance and Scalability</li><li>Security and Data Protection</li><li>Third-Party Integration</li><li>Monitoring and Debugging</li><li>Collaboration with Frontend Developers</li></ul><div class=\"grid gap-5 my-8 sm:grid-cols-2 md:gap-8\"><div class=\"overflow-hidden rounded-xl xl:rounded-2xl\"><img src=\"/portfolios/img/plato-1.png\" class=\"w-full\" alt=\"Plato\"></div><div class=\"overflow-hidden rounded-xl xl:rounded-2xl\"><img src=\"/portfolios/img/plato-2.png\" class=\"w-full\" alt=\"Plato\"></div></div></div>"
+}

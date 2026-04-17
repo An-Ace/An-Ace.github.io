@@ -1,0 +1,17 @@
+{
+  "title": "PESEN.ID (Ordering Services)",
+  "client": "WHITEBOX.ID",
+  "services": "SaaS Ordering Services",
+  "workStart": "2024-03-01T00:00:00.000Z",
+  "workEnd": "2024-04-01T00:00:00.000Z",
+  "img": "/portfolios/img/pesen.id-0.png",
+  "technologies": [
+    { "name": "NEXT.JS 13 (Fullstack)", "img": "/tools/next.svg", "invert": true },
+    { "name": "SHADCN (Design Model)", "img": "/tools/shadcn.svg" },
+    { "name": "Tailwind (CSS Utility)", "img": "/tools/tailwind.svg" },
+    { "name": "Drizzle (ORM)", "img": "/tools/drizzle.svg" },
+    { "name": "MySQL (DBMS)", "img": "/tools/mysql-old.svg" },
+    { "name": "Clerk (AUTH)", "img": "/tools/clerk.svg" }
+  ],
+  "content": "<div><h3 class=\"mb-3 text-lg font-medium text-black dark:text-white xl:text-2xl\">Project Description</h3><p class=\"text-regular !leading-[2]\">pesen.id is an online food ordering platform designed to streamline the process of ordering from local restaurants. It provides users with an easy-to-navigate interface for browsing menus, placing orders, and tracking deliveries. The platform is built for scalability, offering a seamless experience for both customers and restaurant owners. Key features include real-time order tracking, secure payment integration, and personalized user recommendations. My role involved full-stack development, from designing the backend architecture to implementing a user-friendly frontend, ensuring efficient performance and smooth user experience.</p><div class=\"grid gap-5 my-8 sm:grid-cols-2 md:gap-8\"><div class=\"overflow-hidden rounded-xl xl:rounded-2xl\"><img src=\"/portfolios/img/pesen.id-1.png\" class=\"w-full\" alt=\"Pesen.ID\"></div><div class=\"overflow-hidden rounded-xl xl:rounded-2xl\"><img src=\"/portfolios/img/pesen.id-2.png\" class=\"w-full\" alt=\"Pesen.ID\"></div></div></div>"
+}

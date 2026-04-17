@@ -1,0 +1,56 @@
+[
+  {
+    "id": "start-the-day",
+    "title": "Elevate your mornings with perfectly brewed Coffee",
+    "category": "Tips & Tricks",
+    "postedOn": "2023-05-03T12:00:00.000Z",
+    "postedBy": "Muhammad Nasrulloh",
+    "img": "/blogs/img/start-the-day.png",
+    "tags": [{ "name": "MORNING" }, { "name": "REFRESH" }, { "name": "TIPS & TRICKS" }, { "name": "START THE DAY" }, { "name": "GOOD MORNING" }]
+  },
+  {
+    "id": "mastering-the-clock",
+    "title": "Mastering the clock: A guide to time management",
+    "category": "Tips & Tricks",
+    "postedOn": "2023-05-03T12:00:00.000Z",
+    "postedBy": "Muhammad Nasrulloh",
+    "img": "/blogs/img/mastering-the-clock.png",
+    "tags": [{ "name": "MORNING" }, { "name": "REFRESH" }, { "name": "TIPS & TRICKS" }]
+  },
+  {
+    "id": "programmers-need",
+    "title": "Sports is a programmer's best medicine",
+    "category": "Sports",
+    "postedOn": "2023-05-03T12:00:00.000Z",
+    "postedBy": "Muhammad Nasrulloh",
+    "img": "/blogs/img/programmers-need.png",
+    "tags": [{ "name": "SPORTS" }, { "name": "TIPS & TRICKS" }]
+  },
+  {
+    "id": "ai-for-programmers",
+    "title": "AI is not a Programmer job killer",
+    "category": "NEWS",
+    "postedOn": "2023-05-03T12:00:00.000Z",
+    "postedBy": "Muhammad Nasrulloh",
+    "img": "/blogs/img/ai-for-programmers.png",
+    "tags": [{ "name": "AI" }, { "name": "NEWS" }, { "name": "TIPS & TRICKS" }]
+  },
+  {
+    "id": "the-art-of-debugging",
+    "title": "The Art of Debugging: Turning Errors into Learning Opportunities",
+    "category": "TIPS & TRICKS",
+    "postedOn": "2023-10-17T12:00:00.000Z",
+    "postedBy": "Muhammad Nasrulloh",
+    "img": "/blogs/img/the-art-of-debugging.png",
+    "tags": [{ "name": "DEBUGGING" }, { "name": "TIPS & TRICKS" }]
+  },
+  {
+    "id": "building-resilience",
+    "title": "Building Resilience: How Programmers Can Handle Stress Effectively",
+    "category": "WELLNESS",
+    "postedOn": "2023-10-17T12:00:00.000Z",
+    "postedBy": "Muhammad Nasrulloh",
+    "img": "/blogs/img/building-resilience.png",
+    "tags": [{ "name": "WELLNESS" }, { "name": "STRESS MANAGEMENT" }]
+  }
+]

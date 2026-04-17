@@ -1,0 +1,12 @@
+{
+  "title": "My Resume",
+  "client": "ME (SELF)",
+  "services": "Fullstack Development Services",
+  "workStart": "2024-10-20T00:00:00.000Z",
+  "workEnd": "2024-10-21T00:00:00.000Z",
+  "img": "/portfolios/img/my-resume.png",
+  "technologies": [
+    { "name": "VUE Vite (Frontend)", "img": "/tools/vue.svg" },
+    { "name": "Tailwind (CSS Utility)", "img": "/tools/tailwind.svg" }
+  ]
+}

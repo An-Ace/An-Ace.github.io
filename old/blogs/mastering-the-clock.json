@@ -1,0 +1,13 @@
+{
+  "title": "Mastering the clock: A guide to time management",
+  "category": "Productivity",
+  "postedOn": "2023-06-15T12:00:00.000Z",
+  "postedBy": "Anas",
+  "img": "/blogs/img/mastering-the-clock.png",
+  "tags": [
+    { "name": "TIME MANAGEMENT" },
+    { "name": "PRODUCTIVITY" },
+    { "name": "TIPS & TRICKS" }
+  ],
+  "content": "<div><h3 class=\"mb-3 text-lg font-medium text-black dark:text-white xl:text-2xl\">Understanding Time Management</h3><p class=\"text-regular leading-[2]\">Time management is crucial for success in both personal and professional life. This guide covers essential strategies to help you make the most of your time.</p><br><h3 class=\"mb-3 text-lg font-medium text-black dark:text-white xl:text-2xl\">Key Strategies</h3><ul class=\"text-regular leading-[2] list-disc ml-5 my-4\"><li>Prioritize tasks using the Eisenhower Matrix</li><li>Set SMART goals</li><li>Use tools like calendars and apps to stay organized</li></ul></div>"
+}

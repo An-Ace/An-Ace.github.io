@@ -1,0 +1,410 @@
+{
+    "title": {
+        "locales": {
+            "id": {
+                "title_short": "Pengalaman",
+                "title_short_nav": "Pengalaman",
+                "title_long_prefix": "Ringkasan",
+                "title_long": "{{Pengalaman}} Kerja"
+            },
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            },
+            "es": {
+                "title_short": "Experiencia",
+                "title_short_nav": "Experiencia",
+                "title_long_prefix": "Resumen de mi",
+                "title_long": "Experiencia {{Laboral}}"
+            },
+            "fr": {
+                "title_short": "Expérience",
+                "title_short_nav": "Expérience",
+                "title_long_prefix": "Résumé de mon",
+                "title_long": "Parcours {{Professionel}}"
+            },
+            "ko": {
+                "title_short": "경험",
+                "title_short_nav": "경험",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{직업적}} 경험"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-briefcase",
+                    "faIconColors": {"bg": "#1a1a2e", "fill": "#EEE"},
+                    "dateStart": {"year": 2023, "month": 12},
+                    "dateEnd": {"year": 2025, "month": 9},
+                    "locales": {
+                        "id": {
+                            "title": "{{Backend}} Developer",
+                            "province": "Surabaya",
+                            "country": "Indonesia",
+                            "institution": "Whitebox.id",
+                            "text": "Bekerja paruh waktu sebagai Backend Developer. Bertanggung jawab atas:",
+                            "list": [
+                                "Perancangan dan pengembangan API",
+                                "Desain dan manajemen database",
+                                "Autentikasi & Otorisasi",
+                                "Integrasi dengan layanan pihak ketiga",
+                                "Monitoring dan debugging",
+                                "Kolaborasi dengan frontend developer"
+                            ],
+                            "tags": ["Next.js", "MySQL", "Drizzle ORM", "Redis", "Shadcn UI"]
+                        },
+                        "en": {
+                            "title": "{{Backend}} Developer",
+                            "province": "Surabaya",
+                            "country": "Indonesia",
+                            "institution": "Whitebox.id",
+                            "text": "Working part-time as a Backend Developer. Responsibilities include:",
+                            "list": [
+                                "Designing and developing APIs",
+                                "Database design and management",
+                                "Authentication & Authorization",
+                                "Third-party service integration",
+                                "Monitoring and debugging",
+                                "Collaboration with frontend developers"
+                            ],
+                            "tags": ["Next.js", "MySQL", "Drizzle ORM", "Redis", "Shadcn UI"]
+                        },
+                        "es": {
+                            "title": "Desarrollador {{Backend}}",
+                            "province": "Surabaya",
+                            "country": "Indonesia",
+                            "institution": "Whitebox.id",
+                            "text": "Trabajo a tiempo parcial como Desarrollador Backend. Responsabilidades incluyen:",
+                            "list": [
+                                "Diseño y desarrollo de APIs",
+                                "Diseño y gestión de bases de datos",
+                                "Autenticación y Autorización",
+                                "Integración con servicios de terceros",
+                                "Monitoreo y depuración",
+                                "Colaboración con desarrolladores frontend"
+                            ],
+                            "tags": ["Next.js", "MySQL", "Drizzle ORM", "Redis", "Shadcn UI"]
+                        },
+                        "fr": {
+                            "title": "Développeur {{Backend}}",
+                            "province": "Surabaya",
+                            "country": "Indonésie",
+                            "institution": "Whitebox.id",
+                            "text": "Travail à temps partiel en tant que développeur backend. Les responsabilités incluent :",
+                            "list": [
+                                "Conception et développement d'API",
+                                "Conception et gestion de bases de données",
+                                "Authentification & Autorisation",
+                                "Intégration de services tiers",
+                                "Surveillance et débogage",
+                                "Collaboration avec les développeurs frontend"
+                            ],
+                            "tags": ["Next.js", "MySQL", "Drizzle ORM", "Redis", "Shadcn UI"]
+                        },
+                        "ko": {
+                            "title": "{{백엔드}} 개발자",
+                            "province": "수라바야",
+                            "country": "인도네시아",
+                            "institution": "Whitebox.id",
+                            "text": "백엔드 개발자로 파트타임 근무. 담당 업무:",
+                            "list": [
+                                "API 설계 및 개발",
+                                "데이터베이스 설계 및 관리",
+                                "인증 및 권한 부여",
+                                "서드파티 서비스 통합",
+                                "모니터링 및 디버깅",
+                                "프론트엔드 개발자와의 협업"
+                            ],
+                            "tags": ["Next.js", "MySQL", "Drizzle ORM", "Redis", "Shadcn UI"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/pictures/portfolio-project-logo-mybuild.jpg",
+                    "faIcon": "fa-solid fa-hammer",
+                    "faIconColors": {"bg": "#e67e22", "fill": "#EEE"},
+                    "dateStart": {"year": 2024, "month": 10},
+                    "dateEnd": {"year": 2025, "month": 9},
+                    "locales": {
+                        "id": {
+                            "title": "{{Backend}} Team Lead",
+                            "province": "Remote",
+                            "country": "Indonesia",
+                            "institution": "MyBuild.id",
+                            "text": "Memimpin tim backend dalam pengembangan platform konstruksi digital MyBuild.id (Klien: Agung Barola). Tanggung jawab meliputi:",
+                            "list": [
+                                "Memimpin dan membimbing tim backend developer",
+                                "Merancang arsitektur sistem dan API",
+                                "Menentukan standar kode dan best practice",
+                                "Review kode dan quality assurance",
+                                "Koordinasi dengan tim frontend dan product owner",
+                                "Deployment dan manajemen infrastruktur"
+                            ],
+                            "tags": ["Team Lead", "Backend", "API Architecture", "DevOps"]
+                        },
+                        "en": {
+                            "title": "{{Backend}} Team Lead",
+                            "province": "Remote",
+                            "country": "Indonesia",
+                            "institution": "MyBuild.id",
+                            "text": "Led the backend team in developing MyBuild.id digital construction platform (Client: Agung Barola). Responsibilities include:",
+                            "list": [
+                                "Leading and mentoring backend developers",
+                                "Designing system architecture and APIs",
+                                "Setting code standards and best practices",
+                                "Code review and quality assurance",
+                                "Coordination with frontend team and product owner",
+                                "Deployment and infrastructure management"
+                            ],
+                            "tags": ["Team Lead", "Backend", "API Architecture", "DevOps"]
+                        },
+                        "es": {
+                            "title": "{{Backend}} Team Lead",
+                            "province": "Remoto",
+                            "country": "Indonesia",
+                            "institution": "MyBuild.id",
+                            "text": "Lideré el equipo backend en el desarrollo de la plataforma de construcción digital MyBuild.id (Cliente: Agung Barola). Responsabilidades:",
+                            "list": [
+                                "Liderazgo y mentoría de desarrolladores backend",
+                                "Diseño de arquitectura de sistemas y APIs",
+                                "Establecimiento de estándares de código",
+                                "Revisión de código y control de calidad",
+                                "Coordinación con el equipo frontend",
+                                "Despliegue y gestión de infraestructura"
+                            ],
+                            "tags": ["Team Lead", "Backend", "API Architecture", "DevOps"]
+                        },
+                        "fr": {
+                            "title": "{{Backend}} Team Lead",
+                            "province": "Télétravail",
+                            "country": "Indonésie",
+                            "institution": "MyBuild.id",
+                            "text": "Direction de l'équipe backend pour le développement de la plateforme de construction numérique MyBuild.id (Client : Agung Barola). Responsabilités :",
+                            "list": [
+                                "Direction et mentorat des développeurs backend",
+                                "Conception de l'architecture système et des API",
+                                "Établissement des standards de code",
+                                "Revue de code et assurance qualité",
+                                "Coordination avec l'équipe frontend",
+                                "Déploiement et gestion d'infrastructure"
+                            ],
+                            "tags": ["Team Lead", "Backend", "API Architecture", "DevOps"]
+                        },
+                        "ko": {
+                            "title": "{{백엔드}} 팀 리드",
+                            "province": "원격",
+                            "country": "인도네시아",
+                            "institution": "MyBuild.id",
+                            "text": "MyBuild.id 디지털 건설 플랫폼 개발에서 백엔드 팀 리드 (클라이언트: Agung Barola). 담당 업무:",
+                            "list": [
+                                "백엔드 개발자 리더십 및 멘토링",
+                                "시스템 아키텍처 및 API 설계",
+                                "코드 표준 및 모범 사례 설정",
+                                "코드 리뷰 및 품질 보증",
+                                "프론트엔드 팀과의 조율",
+                                "배포 및 인프라 관리"
+                            ],
+                            "tags": ["Team Lead", "Backend", "API Architecture", "DevOps"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/pictures/portfolio-project-logo-roketmarket.jpg",
+                    "faIcon": "fa-solid fa-rocket",
+                    "faIconColors": {"bg": "#c0392b", "fill": "#EEE"},
+                    "dateStart": {"year": 2025, "month": 8},
+                    "dateEnd": {"year": 2026, "month": 4},
+                    "locales": {
+                        "id": {
+                            "title": "{{Fullstack}} Developer & Cloud Engineer",
+                            "province": "Remote",
+                            "country": "Indonesia",
+                            "institution": "PT. Mitra Kanigara Solusi",
+                            "text": "Bekerja sebagai Fullstack Developer & Cloud Engineer untuk ekosistem produk Roket (Klien: Rezha Adi Nugroho), meliputi roketmarket.com, roketchat.com, roketmedia.id, dan vistudio.id. Tanggung jawab:",
+                            "list": [
+                                "Pengembangan fullstack (frontend & backend) untuk semua produk Roket",
+                                "Desain dan pengelolaan infrastruktur cloud",
+                                "CI/CD pipeline dan automation deployment",
+                                "Manajemen database dan optimasi performa",
+                                "Integrasi antar layanan dalam ekosistem Roket",
+                                "Monitoring, logging, dan troubleshooting sistem"
+                            ],
+                            "tags": ["Fullstack", "Cloud", "CI/CD", "Docker", "NGINX", "Dokploy"]
+                        },
+                        "en": {
+                            "title": "{{Fullstack}} Developer & Cloud Engineer",
+                            "province": "Remote",
+                            "country": "Indonesia",
+                            "institution": "PT. Mitra Kanigara Solusi",
+                            "text": "Working as Fullstack Developer & Cloud Engineer for the Roket product ecosystem (Client: Rezha Adi Nugroho), covering roketmarket.com, roketchat.com, roketmedia.id, and vistudio.id. Responsibilities:",
+                            "list": [
+                                "Fullstack development (frontend & backend) for all Roket products",
+                                "Cloud infrastructure design and management",
+                                "CI/CD pipeline and automated deployment",
+                                "Database management and performance optimization",
+                                "Service integration across the Roket ecosystem",
+                                "System monitoring, logging, and troubleshooting"
+                            ],
+                            "tags": ["Fullstack", "Cloud", "CI/CD", "Docker", "NGINX", "Dokploy"]
+                        },
+                        "es": {
+                            "title": "Desarrollador {{Fullstack}} e Ingeniero Cloud",
+                            "province": "Remoto",
+                            "country": "Indonesia",
+                            "institution": "PT. Mitra Kanigara Solusi",
+                            "text": "Trabajando como Desarrollador Fullstack e Ingeniero Cloud para el ecosistema de productos Roket (Cliente: Rezha Adi Nugroho). Responsabilidades:",
+                            "list": [
+                                "Desarrollo fullstack para todos los productos Roket",
+                                "Diseño y gestión de infraestructura cloud",
+                                "CI/CD pipeline y despliegue automatizado",
+                                "Gestión de bases de datos y optimización",
+                                "Integración de servicios en el ecosistema Roket",
+                                "Monitoreo, logging y resolución de problemas"
+                            ],
+                            "tags": ["Fullstack", "Cloud", "CI/CD", "Docker", "NGINX", "Dokploy"]
+                        },
+                        "fr": {
+                            "title": "Développeur {{Fullstack}} & Ingénieur Cloud",
+                            "province": "Télétravail",
+                            "country": "Indonésie",
+                            "institution": "PT. Mitra Kanigara Solusi",
+                            "text": "Travail en tant que Développeur Fullstack & Ingénieur Cloud pour l'écosystème de produits Roket (Client : Rezha Adi Nugroho). Responsabilités :",
+                            "list": [
+                                "Développement fullstack pour tous les produits Roket",
+                                "Conception et gestion de l'infrastructure cloud",
+                                "Pipeline CI/CD et déploiement automatisé",
+                                "Gestion des bases de données et optimisation",
+                                "Intégration des services dans l'écosystème Roket",
+                                "Surveillance, logging et dépannage système"
+                            ],
+                            "tags": ["Fullstack", "Cloud", "CI/CD", "Docker", "NGINX", "Dokploy"]
+                        },
+                        "ko": {
+                            "title": "{{풀스택}} 개발자 & 클라우드 엔지니어",
+                            "province": "원격",
+                            "country": "인도네시아",
+                            "institution": "PT. Mitra Kanigara Solusi",
+                            "text": "Roket 제품 생태계(클라이언트: Rezha Adi Nugroho)의 풀스택 개발자 & 클라우드 엔지니어로 근무. 담당 업무:",
+                            "list": [
+                                "모든 Roket 제품의 풀스택 개발",
+                                "클라우드 인프라 설계 및 관리",
+                                "CI/CD 파이프라인 및 자동화 배포",
+                                "데이터베이스 관리 및 성능 최적화",
+                                "Roket 생태계 서비스 통합",
+                                "시스템 모니터링, 로깅 및 문제 해결"
+                            ],
+                            "tags": ["Fullstack", "Cloud", "CI/CD", "Docker", "NGINX", "Dokploy"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "images/pictures/portfolio-project-logo-btn.png",
+                    "faIcon": "fa-solid fa-clipboard-list",
+                    "faIconColors": {"bg": "#FFFF", "fill": "#EEE"},
+                    "dateStart": {"year": 2025, "month": 8},
+                    "dateEnd": {"year": 2026, "month": 4},
+                    "locales": {
+                        "id": {
+                            "title": "{{Backend}} Developer",
+                            "province": "Remote",
+                            "country": "Indonesia",
+                            "institution": "PT. Kotak Putih Indonesia",
+                            "text": "Pengembangan backend untuk platform survei survey.btn.co.id milik Bank Tabungan Negara (Klien: Muhammad Mifzan). Tanggung jawab meliputi:",
+                            "list": [
+                                "Perancangan dan pengembangan API survei",
+                                "Manajemen data responden dan hasil survei",
+                                "Autentikasi dan otorisasi pengguna",
+                                "Integrasi dengan sistem BTN",
+                                "Optimasi performa dan keamanan data",
+                                "Dokumentasi teknis API"
+                            ],
+                            "tags": ["Backend", "API", "Survey Platform", "PostgreSQL"]
+                        },
+                        "en": {
+                            "title": "{{Backend}} Developer",
+                            "province": "Remote",
+                            "country": "Indonesia",
+                            "institution": "PT. Kotak Putih Indonesia",
+                            "text": "Backend development for survey.btn.co.id survey platform owned by Bank Tabungan Negara (Client: Muhammad Mifzan). Responsibilities include:",
+                            "list": [
+                                "Survey API design and development",
+                                "Respondent data and survey results management",
+                                "User authentication and authorization",
+                                "Integration with BTN systems",
+                                "Performance optimization and data security",
+                                "API technical documentation"
+                            ],
+                            "tags": ["Backend", "API", "Survey Platform", "PostgreSQL"]
+                        },
+                        "es": {
+                            "title": "Desarrollador {{Backend}}",
+                            "province": "Remoto",
+                            "country": "Indonesia",
+                            "institution": "PT. Kotak Putih Indonesia",
+                            "text": "Desarrollo backend para la plataforma de encuestas survey.btn.co.id del Bank Tabungan Negara (Cliente: Muhammad Mifzan). Responsabilidades:",
+                            "list": [
+                                "Diseño y desarrollo de API de encuestas",
+                                "Gestión de datos de encuestados y resultados",
+                                "Autenticación y autorización de usuarios",
+                                "Integración con sistemas BTN",
+                                "Optimización de rendimiento y seguridad",
+                                "Documentación técnica de API"
+                            ],
+                            "tags": ["Backend", "API", "Survey Platform", "PostgreSQL"]
+                        },
+                        "fr": {
+                            "title": "Développeur {{Backend}}",
+                            "province": "Télétravail",
+                            "country": "Indonésie",
+                            "institution": "PT. Kotak Putih Indonesia",
+                            "text": "Développement backend pour la plateforme de sondages survey.btn.co.id de la Bank Tabungan Negara (Client : Muhammad Mifzan). Responsabilités :",
+                            "list": [
+                                "Conception et développement d'API de sondages",
+                                "Gestion des données des répondants",
+                                "Authentification et autorisation des utilisateurs",
+                                "Intégration avec les systèmes BTN",
+                                "Optimisation des performances et sécurité",
+                                "Documentation technique des API"
+                            ],
+                            "tags": ["Backend", "API", "Survey Platform", "PostgreSQL"]
+                        },
+                        "ko": {
+                            "title": "{{백엔드}} 개발자",
+                            "province": "원격",
+                            "country": "인도네시아",
+                            "institution": "PT. Kotak Putih Indonesia",
+                            "text": "Bank Tabungan Negara의 survey.btn.co.id 설문 플랫폼 백엔드 개발 (클라이언트: Muhammad Mifzan). 담당 업무:",
+                            "list": [
+                                "설문 API 설계 및 개발",
+                                "응답자 데이터 및 설문 결과 관리",
+                                "사용자 인증 및 권한 부여",
+                                "BTN 시스템 통합",
+                                "성능 최적화 및 데이터 보안",
+                                "API 기술 문서 작성"
+                            ],
+                            "tags": ["Backend", "API", "Survey Platform", "PostgreSQL"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

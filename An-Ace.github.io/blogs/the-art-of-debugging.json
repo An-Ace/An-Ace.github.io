@@ -1,0 +1,13 @@
+{
+  "title": "The Art of Debugging: Turning Errors into Learning Opportunities",
+  "category": "Tips & Tricks",
+  "postedOn": "2023-10-17T12:00:00.000Z",
+  "postedBy": "Anas",
+  "img": "/blogs/img/the-art-of-debugging.png",
+  "tags": [
+    { "name": "DEBUGGING" },
+    { "name": "TIPS & TRICKS" },
+    { "name": "PROGRAMMING" }
+  ],
+  "content": "<div><h3 class=\"mb-3 text-lg font-medium text-black dark:text-white xl:text-2xl\">Embracing Debugging</h3><p class=\"text-regular leading-[2]\">Debugging is an essential skill for programmers. Instead of viewing errors as setbacks, consider them opportunities to learn and improve your coding skills.</p><br><h3 class=\"mb-3 text-lg font-medium text-black dark:text-white xl:text-2xl\">Effective Debugging Strategies</h3><ul class=\"text-regular leading-[2] list-disc ml-5 my-4\"><li>Utilize debugging tools and software</li><li>Break down your code to isolate issues</li><li>Seek feedback from peers for fresh perspectives</li></ul></div>"
+}
