@@ -103,20 +103,16 @@ function DataProvider({ children, settings }) {
     }
 
     const _loadSectionsData = async (sections) => {
-        for(const section of sections) {
+        await Promise.all(sections.map(async (section) => {
             const sectionJsonPath = section.jsonPath
             if(sectionJsonPath) {
-                let jSectionData = {}
-
                 try {
-                    jSectionData = await utils.file.loadJSON(sectionJsonPath)
+                    section.data = await utils.file.loadJSON(sectionJsonPath)
                 } catch (e) {
-                    jSectionData = {}
+                    section.data = {}
                 }
-
-                section.data = jSectionData
             }
-        }
+        }))
     }
 
     const _validateData = () => {

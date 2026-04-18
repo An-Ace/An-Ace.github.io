@@ -30,7 +30,7 @@ function Preloader({ children, preloaderSettings }) {
     const [didLoadAllImages, setDidLoadAllImages] = useState(false)
 
     const tag = "Preloader"
-    const minDisplayTime = 1000
+    const minDisplayTime = 300
     const shouldShowPreloaderWindow = state.id > PreloaderState.NONE.id && state.id < PreloaderState.HIDDEN.id
     const shouldShowContent = state.id >= PreloaderState.SHOWN.id
     const shouldShowContentElements = state.id >= PreloaderState.SHOWING.id
@@ -68,7 +68,7 @@ function Preloader({ children, preloaderSettings }) {
         scheduler.clearAllWithTag(tag)
         scheduler.schedule(() => {
             setState(PreloaderState.SHOWN)
-        }, 1000, tag)
+        }, 400, tag)
     }, [state === PreloaderState.SHOWING])
 
     /**

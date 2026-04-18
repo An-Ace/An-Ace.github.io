@@ -10,7 +10,8 @@
         "preview": "vite preview",
         "deploy": "gh-pages -d dist",
         "resume:make:article": "node npm/npm-resume-new-article.js",
-        "resume:clear": "node npm/npm-resume-clear.js"
+        "resume:clear": "node npm/npm-resume-clear.js",
+        "images:to-webp": "node npm/npm-convert-images-to-webp.js"
     },
     "dependencies": {
         "@emailjs/browser": "^4.4.1",
@@ -35,6 +36,7 @@
         "gh-pages": "^6.3.0",
         "globals": "^15.9.0",
         "sass-embedded": "^1.78.0",
+        "sharp": "^0.34.5",
         "vite": "^6.3.5"
     }
 }

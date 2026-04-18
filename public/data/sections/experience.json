@@ -136,7 +136,7 @@
                 },
                 {
                     "id": 2,
-                    "img": "images/pictures/portfolio-project-logo-mybuild.jpg",
+                    "img": "images/pictures/portfolio-project-logo-mybuild.webp",
                     "faIcon": "fa-solid fa-hammer",
                     "faIconColors": {"bg": "#e67e22", "fill": "#EEE"},
                     "dateStart": {"year": 2024, "month": 10},
@@ -226,7 +226,7 @@
                 },
                 {
                     "id": 3,
-                    "img": "images/pictures/portfolio-project-logo-roketmarket.jpg",
+                    "img": "images/pictures/portfolio-project-logo-roketmarket.webp",
                     "faIcon": "fa-solid fa-rocket",
                     "faIconColors": {"bg": "#c0392b", "fill": "#EEE"},
                     "dateStart": {"year": 2025, "month": 8},
@@ -316,7 +316,7 @@
                 },
                 {
                     "id": 4,
-                    "img": "images/pictures/portfolio-project-logo-btn.png",
+                    "img": "images/pictures/portfolio-project-logo-btn.webp",
                     "faIcon": "fa-solid fa-clipboard-list",
                     "faIconColors": {"bg": "#FFFF", "fill": "#EEE"},
                     "dateStart": {"year": 2025, "month": 8},

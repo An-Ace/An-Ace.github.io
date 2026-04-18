@@ -79,7 +79,7 @@
                 {
                     "id": 1,
                     "categoryId": "category_survey",
-                    "img": "images/pictures/portfolio-project-logo-btn.png",
+                    "img": "images/pictures/portfolio-project-logo-btn.webp",
                     "faIcon": "fa-solid fa-clipboard-list",
                     "faIconColors": {"bg": "#FFFF", "fill": "#EEE"},
                     "preview": {
@@ -121,7 +121,7 @@
                 {
                     "id": 2,
                     "categoryId": "category_platform",
-                    "img": "images/pictures/portfolio-project-logo-roketmarket.jpg",
+                    "img": "images/pictures/portfolio-project-logo-roketmarket.webp",
                     "faIcon": "fa-solid fa-rocket",
                     "faIconColors": {"bg": "#c0392b", "fill": "#EEE"},
                     "preview": {
@@ -163,7 +163,7 @@
                 {
                     "id": 3,
                     "categoryId": "category_platform",
-                    "img": "images/pictures/portfolio-project-logo-mybuild.jpg",
+                    "img": "images/pictures/portfolio-project-logo-mybuild.webp",
                     "faIcon": "fa-solid fa-hammer",
                     "faIconColors": {"bg": "#e67e22", "fill": "#EEE"},
                     "preview": {

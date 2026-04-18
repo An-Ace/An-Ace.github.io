@@ -4,7 +4,13 @@
       "Bash(xargs grep *)",
       "Bash(find C:/MY_DEV/portfolio/resume/src/hooks -type f -exec cat {} \\\\;)",
       "Bash(python3 -c ' *)",
-      "Bash(python3 *)"
+      "Bash(python3 *)",
+      "Bash(xargs ls *)",
+      "Bash(sort -k5 -rh)",
+      "Bash(awk '{print $5, $9}')",
+      "Bash(node -e \"require\\('sharp'\\)\")",
+      "Bash(bun add *)",
+      "Bash(bun run *)"
     ]
   }
 }
