@@ -30,27 +30,27 @@
         {
             "name": "Indonesia",
             "id": "id",
-            "flagUrl": "images/flags/id.png"
+            "flagUrl": "images/flags/id.webp"
         },
         {
             "name": "English",
             "id": "en",
-            "flagUrl": "images/flags/en-us.png"
+            "flagUrl": "images/flags/en-us.webp"
         },
         {
             "name": "Español",
             "id": "es",
-            "flagUrl": "images/flags/es.png"
+            "flagUrl": "images/flags/es.webp"
         },
         {
             "name": "Français",
             "id": "fr",
-            "flagUrl": "images/flags/fr.png"
+            "flagUrl": "images/flags/fr.webp"
         },
         {
             "name": "한국어",
             "id": "ko",
-            "flagUrl": "images/flags/ko.png"
+            "flagUrl": "images/flags/ko.webp"
         }
     ],
 

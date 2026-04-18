@@ -424,7 +424,7 @@
             "items": [
                 {
                     "id": 1,
-                    "img": "images/flags/id.png",
+                    "img": "images/flags/id.webp",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "date": {"year": null, "month": null},
@@ -439,7 +439,7 @@
                 },
                 {
                     "id": 2,
-                    "img": "images/flags/en-us.png",
+                    "img": "images/flags/en-us.webp",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "date": {"year": null, "month": null},
